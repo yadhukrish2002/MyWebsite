@@ -206,6 +206,11 @@ header nav .search i {
   font-size: 20px;
 }
 
+.about .description p a {
+  text-decoration:underline;
+  color: #ffffff;
+}
+
 .about .description p span {
   color: #fec86a;
 }
@@ -370,7 +375,7 @@ header nav .search i {
   background-color: #cc9e4e;
 }
 
-.experience {
+.experience  {
   display: flex;
   flex-direction: column;
   /* height: 100vh; */
@@ -413,13 +418,13 @@ header nav .search i {
   margin-left: 20vh;
 }
 
-.exp h2 {
+.exp h2  {
   color: #fbfbfb;
   font-size: 32px;
   font-weight: 400;
 }
 
-.exp h2::before {
+.exp h2::before  {
   content: "";
   height: 20px;
   width: 20px;
@@ -433,7 +438,7 @@ header nav .search i {
   box-shadow: 0px 0px 20px 5px #fec86a;
 }
 
-.exp-desc::before {
+.exp-desc::before  {
   content: "";
   height: 190px;
   width: 2.5px;
@@ -443,7 +448,7 @@ header nav .search i {
   top: 55%;
   left: -5%;
 }
-.exp-desc h3 {
+.exp-desc h3  {
   color: #fbfbfb;
   font-size: 20px;
   font-weight: 400;
@@ -455,6 +460,31 @@ header nav .search i {
   font-size: 16;
   font-weight: 400;
 }
+
+.exp-desc a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 144px;
+  margin-top: 2.5vh;
+  margin-left: 0vw;
+  background-color: transparent;
+  border: 2px solid #fec86a;
+  border-radius: 8px;
+  color: #fec86a;
+  font-size: 16px;
+  transition: all ease 0.5s;
+}
+
+.exp-desc a:hover {
+  background-color: #fec86a;
+  color: #34353b;
+}
+
+
+
 
 .contact-me {
   width: 100vw;
