@@ -292,6 +292,11 @@ header nav .search i {
   gap: 2.5vh;
 }
 
+/* */
+.portfolio-card.hidden {
+  display: none !important;
+}
+
 .portfolio-card {
   position: relative;
   height: 30vw;
